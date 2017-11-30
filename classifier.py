@@ -29,9 +29,9 @@ config_dict = {
 	"model": {
 		"function": "KNeighborsClassifier",
 		"KNeighborsClassifier": {
-			"n_neighbors": 4,
-			"algorithm": "ball_tree",
-			"leaf_size": 50
+			"n_neighbors": 5,
+			"algorithm": "kd_tree",
+			"leaf_size": 60
 		}
 	}
 }
